@@ -3,6 +3,9 @@ from tqdm import tqdm
 
 Path_to_PTdict_list = ''
 Save_path = ''
+arr_outcome_path = ''
+gt = np.load(arr_outcome_path)
+np.save(Save_path+'gt.npy',gt)
 
 data = np.load(Path_to_PTdict_list,allow_pickle=True)
 all_num = len(data)
