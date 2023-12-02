@@ -17,7 +17,7 @@ Run __train_medical.py__ can both train and test CoFormer. __--split__ parameter
 
 # Cite
 If you find CoFormer is useful for your research, please consider citing this paper:
-'''python
+'''latex
 @misc{wei2023compatible,
       title={Compatible Transformer for Irregularly Sampled Multivariate Time Series}, 
       author={Yuxi Wei and Juntong Peng and Tong He and Chenxin Xu and Jian Zhang and Shirui Pan and Siheng Chen},
