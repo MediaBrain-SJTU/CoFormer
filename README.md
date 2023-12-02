@@ -16,8 +16,8 @@ You can also download from [preprocessed](https://drive.google.com/drive/folders
 Run __train_medical.py__ can both train and test CoFormer. __--split__ parameter specifies the train/test split index, __--data_root__ parameter specifies the data root, where the .npy files are saved, __--dataset__ parameter specifies the dataset type, including p19, p12 and pam.
 
 # Cite
-'''
 If you find CoFormer is useful for your research, please consider citing this paper:
+'''python
 @misc{wei2023compatible,
       title={Compatible Transformer for Irregularly Sampled Multivariate Time Series}, 
       author={Yuxi Wei and Juntong Peng and Tong He and Chenxin Xu and Jian Zhang and Shirui Pan and Siheng Chen},
