@@ -322,10 +322,10 @@ if __name__ == '__main__':
 
         print('start new epoch')
         # """ save model """
-        # if (cfg.model_save_freq > 0 and (epoch + 1) % cfg.model_save_freq == 0) or epoch == 0:
-        #     cp_path = cfg.model_path % (epoch + 1)
-        #     model_cp = {'model_dict': model.state_dict(), 'opt_dict': optimizer.state_dict(), 'scheduler_dict': scheduler.state_dict(), 'epoch': epoch + 1}
-        #     torch.save(model_cp, cp_path)
+        if (cfg.model_save_freq > 0 and (epoch + 1) % cfg.model_save_freq == 0) or epoch == 0:
+            cp_path = cfg.model_path % (epoch + 1)
+            model_cp = {'model_dict': model.state_dict(), 'opt_dict': optimizer.state_dict(), 'scheduler_dict': scheduler.state_dict(), 'epoch': epoch + 1}
+            torch.save(model_cp, cp_path)
 
 
 
