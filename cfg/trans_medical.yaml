@@ -1,0 +1,46 @@
+# ------------------- General Options -------------------------
+
+description                  : Masktrans
+results_root_dir             : results
+seed                         : 1
+dataset                      : football
+
+# ------------------- Feature Extractor -------------------------
+
+past_length                 : 8
+future_length               : 8
+whole_length                : 24
+num_variate                 : 23
+
+traj_scale                   : 1
+motion_dim                   : 2
+forecast_dim                 : 2
+
+
+
+# ------------------- Model -------------------------
+
+input_dim: 2
+output_dim: 2
+h_dim: 256
+m_dim: 512
+head: 8
+dropout: 0.1
+N: 6
+heads                       : 8
+
+
+# ------------------- Training Parameters -------------------------
+
+lr                           : 1.e-4
+
+
+batch_size: 4
+num_epochs                   : 100
+lr_fix_epochs                : 10
+lr_scheduler: 'step'
+decay_step: 10
+decay_gamma: 0.5
+print_freq                   : 5000
+model_save_freq              : 10
+
