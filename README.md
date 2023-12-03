@@ -20,12 +20,10 @@ If you find CoFormer is useful for your research, please consider citing this pa
 
 
 ```
-@misc{wei2023compatible,
-      title={Compatible Transformer for Irregularly Sampled Multivariate Time Series}, 
-      author={Yuxi Wei and Juntong Peng and Tong He and Chenxin Xu and Jian Zhang and Shirui Pan and Siheng Chen},
-      year={2023},
-      eprint={2310.11022},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{wei2023compatible,
+  title={Compatible Transformer for Irregularly Sampled Multivariate Time Series},
+  author={Wei, Yuxi and Peng, Juntong and He, Tong and Xu, Chenxin and Zhang, Jian and Pan, Shirui and Chen, Siheng},
+  journal={arXiv preprint arXiv:2310.11022},
+  year={2023}
 }
 ```
